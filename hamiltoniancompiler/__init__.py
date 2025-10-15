@@ -53,3 +53,19 @@ __all__ = [
     "synthesize_pauli_exponential",
     "__version__",
 ]
+try:
+    from .visualization import (
+        plot_circuit_stats,
+        plot_hamiltonian_structure,
+        plot_compilation_comparison,
+        plot_commutation_graph
+    )
+    __all__.extend([
+        'plot_circuit_stats',
+        'plot_hamiltonian_structure',
+        'plot_compilation_comparison',
+        'plot_commutation_graph'
+    ])
+except ImportError:
+    # Visualization dependencies not installed
+    pass
