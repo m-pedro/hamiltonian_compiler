@@ -7,7 +7,7 @@ Main package initialization file.
 
 __version__ = "1.0.0"
 __author__ = "HamiltonianCompiler Contributors"
-__license__ = "Apache-2.0"
+__license__ = "CC BY-NC-SA 4.0"
 
 # Import core classes for easy access
 from .hamiltoniancompiler import (
