@@ -58,7 +58,7 @@ all = [
 
 [project.urls]
 Homepage = "https://github.com/m-pedro/hamiltonian_compiler"
-Documentation = "https://github.com/m-pedro/hamiltonian_compiler/blob/main/docs/whitepaper.md"
+Documentation = "https://github.com/m-pedro/hamiltonian_compiler/blob/main/docs/FAQ.md"
 Repository = "https://github.com/m-pedro/hamiltonian_compiler"
 "Bug Tracker" = "https://github.com/m-pedro/hamiltonian_compiler/issues"
 
