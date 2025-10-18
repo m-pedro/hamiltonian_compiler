@@ -42,8 +42,6 @@ Full installation instructions, examples, and documentation are available in the
 
 ## Documentation
 
-- **[White Paper](docs/whitepaper.md)** - Technical details and algorithms
-- **[Examples](examples/)** - Working demonstrations
 - **[FAQ](docs/FAQ.md)** - Common questions and answers
 
 ---
