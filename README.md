@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/m-pedro/hamiltonian_compiler/actions/workflows/tests.yml/badge.svg)](https://github.com/m-pedro/hamiltonian_compiler/actions)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
@@ -46,7 +46,8 @@ Full installation instructions, examples, and documentation are available in the
 
 ## License
 
-This software is open source under the Apache License, meaning you're free to use it, modify it, and share it for any purpose.
+The license is CC BY-NC-SA 4.0 - you may not use the material for commercial purposes. To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
