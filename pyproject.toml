@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Efficient compilation of physical Hamiltonians for superconducting quantum computers"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "CC BY-NC-SA 4.0"}
+license = "CC BY-NC-SA 4.0"}
 authors = [
     {name = "HamiltonianCompiler Contributors"}
 ]
