@@ -17,21 +17,17 @@ from .hamiltoniancompiler import (
     Hamiltonian,
     Gate,
     QuantumCircuit,
-    
     # Decomposition methods
     DecompositionMethod,
     FirstOrderTrotter,
     SecondOrderTrotter,
     qDRIFT,
     qSWIFT,
-    
     # Optimization
     CircuitOptimizer,
-    
     # Main compiler
     CompilerConfig,
     HamiltonianCompiler,
-    
     # Utility functions
     synthesize_pauli_exponential,
 )
@@ -58,14 +54,17 @@ try:
         plot_circuit_stats,
         plot_hamiltonian_structure,
         plot_compilation_comparison,
-        plot_commutation_graph
+        plot_commutation_graph,
     )
-    __all__.extend([
-        'plot_circuit_stats',
-        'plot_hamiltonian_structure',
-        'plot_compilation_comparison',
-        'plot_commutation_graph'
-    ])
+
+    __all__.extend(
+        [
+            "plot_circuit_stats",
+            "plot_hamiltonian_structure",
+            "plot_compilation_comparison",
+            "plot_commutation_graph",
+        ]
+    )
 except ImportError:
     # Visualization dependencies not installed
     pass
